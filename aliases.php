@@ -16,11 +16,12 @@ $data = new JSONDatabase($config['db'], $config['db_location']);
 			<nav class="navbar navbar-inverse">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <a class="navbar-brand" href="aliases.php">Mail-In-A-Box Account Management</a>
+			      <a class="navbar-brand" href="aliases.php">Mailbox management</a>
 			    </div>
 			    <ul class="nav navbar-nav">
 			    	<li><a href="#">Welcome, <?php echo $_SESSION['username'];?>!</a></li>
-			    	<li><a href="dashboard.php"><i class="fa fa-person"></i> Dashboard</a></li>
+			    	<li><a href="dashboard.php"><i class="fa fa-person"></i> Addresses</a></li>
+				<li><a class="nav-active" href="aliases.php"><i class="fa fa-person"></i> Aliases</a></li>
 			    	<li><a href="logout.php"><i class="fa fa-person"></i> Logout</a></li>
 			    </ul>
 			  </div>
