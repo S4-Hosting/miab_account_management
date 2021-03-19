@@ -20,6 +20,7 @@ $data = new JSONDatabase($config['db'], $config['db_location']);
 			    </div>
 			    <ul class="nav navbar-nav">
 			    	<li><a href="#">Welcome, <?php echo $_SESSION['username'];?>!</a></li>
+				<li><a class="nav-active" href="dashboard.php"><i class="fa fa-person"></i> Addresses</a></li>
 			    	<li><a href="aliases.php"><i class="fa fa-person"></i> Aliases</a></li>
 			    	<li><a href="logout.php"><i class="fa fa-person"></i> Logout</a></li>
 			    </ul>
