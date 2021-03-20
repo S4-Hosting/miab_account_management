@@ -43,7 +43,7 @@ $data = new JSONDatabase($config['db'], $config['db_location']);
 				?>
 				<div class="col-md-8">
 					<div class="page-header">
-						<h2>Current Users</h2>
+						<h2>Active addresses</h2>
 					</div>
 					<table class="table table-striped">
 						<thead>
@@ -95,7 +95,7 @@ $data = new JSONDatabase($config['db'], $config['db_location']);
 				<div class="col-md-4">
 					<div class="row">
 						<div class="page-header">
-							<h2>Make New User</h2>
+							<h2>Create new address</h2>
 						</div>
 						<form action="api.php" method="POST">
 							<input type="hidden" name="t" value="new">
